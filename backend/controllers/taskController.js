@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 import Task from '../models/Task.js'
 import AppError from '../middleware/AppError.js'
-
+// Updated through GitHub Actions CI/CD verification
 const allowedFields = new Set(['title', 'description', 'status', 'priority', 'dueDate'])
 const statuses = new Set(['pending', 'completed'])
 const priorities = new Set(['low', 'medium', 'high'])
